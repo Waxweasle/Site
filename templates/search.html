@@ -1,0 +1,16 @@
+{% extends "base.html" %} {% block title %}search {% endblock %} {% block content%}
+<form method="GET">
+  <h3 align="center">User Search</h3>
+  <div class="form-group">
+    <label for="email">Search:</label>
+    <input
+      type="search"
+      class="form-control"
+      id="search"
+      name="search"
+    />
+  </div>
+  <br />
+  <button type="submit" class="btn btn-primary">Go</button>
+  </form>
+{% endblock %}
